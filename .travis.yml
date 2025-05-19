@@ -1,9 +1,9 @@
-os: linux
-language: generic
-dist: focal
+# os: linux
+# language: generic
+# dist: focal
 
 vm:
-  create:
+  use:
     name: my-custom-image
 
 script:
