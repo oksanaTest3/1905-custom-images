@@ -1,8 +1,11 @@
-#test
 os: linux
 language: generic
 dist: focal
 
 vm:
   create:
-    name: cust-image-3
+    name: log-dot-test
+
+script:
+  - echo "Starting long process..."
+  - sleep 60
