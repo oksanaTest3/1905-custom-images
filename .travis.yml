@@ -1,8 +1,8 @@
-#test2
-# os: linux
-# language: generic
-# dist: focal
+#test
+os: linux
+language: generic
+dist: focal
 
 vm:
   use:
-    name: cust-image-1
+    name: cust-image-2
