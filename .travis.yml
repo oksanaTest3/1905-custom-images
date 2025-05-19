@@ -1,3 +1,11 @@
+os: linux
+language: generic
+dist: focal
+
 vm:
-  use:
-    name: new-image
+  create:
+    name: new-image1
+
+script:
+  - echo "Test custom image!" > /tmp/my_custom_file.txt
+  - cat /tmp/my_custom_file.txt
