@@ -4,5 +4,5 @@ language: generic
 dist: focal
 
 vm:
-  use:
+  create:
     name: cust-image-2
