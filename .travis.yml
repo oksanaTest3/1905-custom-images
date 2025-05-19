@@ -3,9 +3,9 @@ language: generic
 dist: focal
 
 vm:
-  create:
+  use:
     name: new-image1
 
 script:
-  - echo "Test custom image!" > /tmp/my_custom_file.txt
+  - echo "Checking if custom file exists..."
   - cat /tmp/my_custom_file.txt
