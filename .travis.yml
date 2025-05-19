@@ -4,8 +4,7 @@ dist: focal
 
 vm:
   create:
-    name: log-dot-test
+    name: bug4-log-dot
 
 script:
-  - echo "Starting long process..."
-  - sleep 60
+  - echo "test..."
