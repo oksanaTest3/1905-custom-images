@@ -1,10 +1,10 @@
-# os: linux
-# language: generic
-# dist: focal
+os: linux
+language: generic
+dist: focal
 
-vm:
-  use:
-    name: my-custom-image
+# vm:
+#   create:
+#     name: my-custom-image
 
 script:
   - echo "test..."
