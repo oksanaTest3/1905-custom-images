@@ -4,7 +4,7 @@ dist: focal
 
 vm:
   create:
-    name: bug4-log-dot
+    name: my-custom-image
 
 script:
   - echo "test..."
